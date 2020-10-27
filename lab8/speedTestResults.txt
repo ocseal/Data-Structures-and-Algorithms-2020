@@ -1,0 +1,11 @@
+RandomSpeedTest:
+L: 1000, Strings: 10000
+ULLMap: 0.82s
+MyHashMap: 0.13s
+Java: 0.13s
+
+InOrderSpeedTest:
+Strings: 10000
+ULLMap: 0.82s
+MyHashMap: 0.04s
+Java: 0.01s

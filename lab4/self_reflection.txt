@@ -1,0 +1,63 @@
+All questions are optional, though try to answer at least 4. The main goal of this file is to get you thinking critically about your own work, but we will also use these self reflections at the end of the semester when we do our internal review of the course.
+
+ArrayDeque:
+
+Q: Give an example of at least one idea from the staff solution that would have made your solution better (if any).
+
+A: I could have streamlined the resize method to be only one method instead of having one upsize and one downsize method.
+
+Q: What's something you felt proud of in your code, if anything?
+
+A: Again, I'm happy that it worked. I spent so long working on it and I'm just happy everything worked out.
+
+Q: What's something that was particularly inelegant in your code, if anything?
+
+A: My upsize and downsize methods were monstrosities.
+
+Q: What did you learn by talking to your partner about writing ArrayDeque?
+
+A: My partner also only had one resize method but had special cases using if statements. I had 2 special cases for each method (upsize and downsize).
+
+Q: What do you wish you would have known before writing ArrayDeque, if anything?
+
+A: I wish I had taken my time to think about the relationship between indices before and after resizing. Jumping in to the code immediately was not the move.
+
+Q: If you wrote ArrayDeque again, what would you do differently, if anything?
+
+A: I would start with a general structure for writing indices to limit the amount of times I had to add or subtract 1.
+
+-----
+
+LinkedListDeque:
+
+Q: Give an example of at least one idea from the staff solution that would have made your solution better (if any).
+
+A: I should have attempted a circular LinkedListDeque since it would have been conceptually helpful for my ArrayDeque.
+
+Q: What's something you felt proud of in your code, if anything?
+
+A: I'm happy that it worked! It was definitely harder than Project 0!
+
+Q: What's something that was particularly inelegant in your code, if anything?
+
+A: I had to write another method to add an object to a LinkedListDeque with zero size, but I probably could have done it another way.
+
+Q: What did you learn by talking to your partner about writing LinkedListDeque?
+
+A: I learned that you could write a LinkedListDeque with two constructors (though it's a bit inefficient)!
+
+Q: What do you wish you would have known before writing LinkedListDeque, if anything?
+
+A: I wish that I would have known that Java implements a LinkedListDeque and that I could have used it for info!
+
+Q: If you wrote LinkedListDeque again, what would you do differently, if anything?
+
+A: I would have attempted a circular solution. Also writing it down on paper ended up being super helpful. I should have writted stuff down earlier.
+
+-----
+
+Meta:
+
+Q: Did you like this design review process? Anything we should do differently next time?
+
+A: It's pretty okay. No issues here.
